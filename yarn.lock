@@ -22,9 +22,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@anubus298/medusa-reviews@workspace:.":
+"@anubus298/medusa-product-reviews@workspace:.":
   version: 0.0.0-use.local
-  resolution: "@anubus298/medusa-reviews@workspace:."
+  resolution: "@anubus298/medusa-product-reviews@workspace:."
   dependencies:
     "@lambdacurry/medusa-plugins-sdk": "npm:^0.0.5"
     "@medusajs/admin-sdk": "npm:2.11.2"
@@ -48,13 +48,14 @@ __metadata:
     vite: "npm:^5.2.11"
     yalc: "npm:^1.0.0-pre.53"
   peerDependencies:
+    "@lambdacurry/medusa-plugins-sdk": ^0.0.5
     "@medusajs/admin-sdk": 2.11.2
     "@medusajs/cli": 2.11.2
     "@medusajs/framework": 2.11.2
     "@medusajs/icons": 2.11.2
     "@medusajs/medusa": 2.11.2
     "@medusajs/test-utils": 2.11.2
-    "@medusajs/ui": 4.0.25
+    "@medusajs/ui": ^4.0.26
   languageName: unknown
   linkType: soft
 
@@ -15205,50 +15206,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite@npm:^5.2.11":
-  version: 5.4.14
-  resolution: "vite@npm:5.4.14"
-  dependencies:
-    esbuild: "npm:^0.21.3"
-    fsevents: "npm:~2.3.3"
-    postcss: "npm:^8.4.43"
-    rollup: "npm:^4.20.0"
-  peerDependencies:
-    "@types/node": ^18.0.0 || >=20.0.0
-    less: "*"
-    lightningcss: ^1.21.0
-    sass: "*"
-    sass-embedded: "*"
-    stylus: "*"
-    sugarss: "*"
-    terser: ^5.4.0
-  dependenciesMeta:
-    fsevents:
-      optional: true
-  peerDependenciesMeta:
-    "@types/node":
-      optional: true
-    less:
-      optional: true
-    lightningcss:
-      optional: true
-    sass:
-      optional: true
-    sass-embedded:
-      optional: true
-    stylus:
-      optional: true
-    sugarss:
-      optional: true
-    terser:
-      optional: true
-  bin:
-    vite: bin/vite.js
-  checksum: 10c0/8842933bd70ca6a98489a0bb9c8464bec373de00f9a97c8c7a4e64b24d15c88bfaa8c1acb38a68c3e5eb49072ffbccb146842c2d4edcdd036a9802964cffe3d1
-  languageName: node
-  linkType: hard
-
-"vite@npm:^5.4.14":
+"vite@npm:^5.2.11, vite@npm:^5.4.14":
   version: 5.4.21
   resolution: "vite@npm:5.4.21"
   dependencies:
