@@ -1,8 +1,10 @@
 {
-  "name": "@anubus298/medusa-reviews",
+  "name": "@anubus298/medusa-product-reviews",
   "version": "2.11.2",
-  "private": false,
   "description": "reviews .",
+  "publishConfig": {
+    "access": "public"
+  },
   "author": "Medusa (https://medusajs.com)",
   "license": "MIT",
   "files": [
