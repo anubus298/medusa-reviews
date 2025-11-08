@@ -137,6 +137,7 @@ await sdk.admin.productReviews.deleteResponse(
 ### Admin Endpoints
 
 - `GET /admin/product-reviews` - List all reviews
+- `POST /admin/product-reviews/bulk` - Bulk insert reviews
 - `POST /admin/product-reviews/:id/response` - Add a response
 - `PUT /admin/product-reviews/:id/response` - Update response
 - `DELETE /admin/product-reviews/:id/response` - Delete response
@@ -183,7 +184,7 @@ yarn install
 
 ## Compatibility
 
-This plugin is compatible with versions `>= 2.5.0` of `@medusajs/medusa`.
+This plugin is compatible with versions `>= 2.11.0` of `@medusajs/medusa`.
 
 ## License
 
