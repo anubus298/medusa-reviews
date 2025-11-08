@@ -22,9 +22,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@anubus298/medusa-reviews@workspace:.":
+"@anubus298/medusa-product-reviews@workspace:.":
   version: 0.0.0-use.local
-  resolution: "@anubus298/medusa-reviews@workspace:."
+  resolution: "@anubus298/medusa-product-reviews@workspace:."
   dependencies:
     "@lambdacurry/medusa-plugins-sdk": "npm:^0.0.5"
     "@medusajs/admin-sdk": "npm:2.11.2"
@@ -48,13 +48,14 @@ __metadata:
     vite: "npm:^5.2.11"
     yalc: "npm:^1.0.0-pre.53"
   peerDependencies:
+    "@lambdacurry/medusa-plugins-sdk": ^0.0.5
     "@medusajs/admin-sdk": 2.11.2
     "@medusajs/cli": 2.11.2
     "@medusajs/framework": 2.11.2
     "@medusajs/icons": 2.11.2
     "@medusajs/medusa": 2.11.2
     "@medusajs/test-utils": 2.11.2
-    "@medusajs/ui": 4.0.25
+    "@medusajs/ui": ^4.0.26
   languageName: unknown
   linkType: soft
 
@@ -12052,11 +12053,11 @@ __metadata:
   linkType: hard
 
 "min-document@npm:^2.19.0":
-  version: 2.19.0
-  resolution: "min-document@npm:2.19.0"
+  version: 2.19.1
+  resolution: "min-document@npm:2.19.1"
   dependencies:
     dom-walk: "npm:^0.1.0"
-  checksum: 10c0/783724da716fc73a51c171865d7b29bf2b855518573f82ef61c40d214f6898d7b91b5c5419e4d22693cdb78d4615873ebc3b37d7639d3dd00ca283e5a07c7af9
+  checksum: 10c0/3924861e38e820428c1076c42f2eacff7dcbf1aeff0ddcd5bc8a22c47ac338505c87e6fd66ebe97378207ea3a410e4f639d1de652a9e64b8ef738002909e1b8f
   languageName: node
   linkType: hard
 
