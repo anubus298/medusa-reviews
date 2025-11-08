@@ -1,6 +1,6 @@
 {
   "name": "@anubus298/medusa-product-reviews",
-  "version": "2.11.2",
+  "version": "2.11.3",
   "description": "reviews .",
   "publishConfig": {
     "access": "public"
