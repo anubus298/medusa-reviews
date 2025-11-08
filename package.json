@@ -1,7 +1,8 @@
 {
   "name": "@anubus298/medusa-reviews",
-  "version": "0.1.1",
-  "description": "A starter for Medusa plugins.",
+  "version": "2.11.2",
+  "private": false,
+  "description": "reviews .",
   "author": "Medusa (https://medusajs.com)",
   "license": "MIT",
   "files": [
